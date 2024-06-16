@@ -20,25 +20,16 @@ This project was done as part of the [Front End Developer Course by Orange Digit
 
 ### The task
 
-- Creați un document HTML care va reprezenta o pagină cu o rețetă pentru un anumit fel de mâncare.
-
-- Adăugați un titlu de prim nivel cu numele felului de mâncare.
-
-- Adăugați o imagine a felului de mâncare utilizând tag-ul <i-m-g> și includeți atributul alt
-
-- Adăugați un paragraf care să conțină o descriere scurtă a felului de mâncare.
-
-- Creați o listă neordonată pentru a enumera ingredientele necesare
-
-- Creați o listă ordonată pentru a enumera instrucțiunile, pas cu pas, pentru preparare
-
-- Adăugați un link către o pagină externă care conține rețeta completă.
-
-- Creați un formular cu câmpuri pentru nume și comentariu. Utilizați atributul required pentru a face aceste câmpuri obligatorii 
-
-- Creați o tabelă pentru a afișa informații despre valoarea nutritivă, cum ar fi numărul de calorii, proteine, grăsimi și carbohidrați.
-
-- Adăugați un buton "Înapoi" care, la clic, să întoarcă utilizatorul la pagina anterioară în istoricul de navigare.
+- Create an HTML document that will represent a recipe page for a specific dish.
+- Add a top-level title with the name of the dish.
+- Add an image of the dish using the tag and include the alt attribute
+- Add a paragraph containing a short description of the dish.
+- Create an unordered list to list the required ingredients
+- Create an ordered list to list step-by-step instructions for preparation
+- Add a link to an external page containing the full recipe.
+- Create a form with fields for name and comment. Use the required attribute to make these fields required
+- Create a table to display information about the nutritional value, such as the number of calories, protein, fat and carbohydrates.
+- Add a "Back" button that, when clicked, returns the user to the previous page in the browsing history.
 
 ### Built with
 
