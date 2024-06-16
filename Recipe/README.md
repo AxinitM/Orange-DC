@@ -13,7 +13,7 @@ This project was done as part of the [Front End Developer Course by Orange Digit
 
 ### Screenshot
 
-![](/images/screenshot.png)
+![](./images/screenshot.png)
 
 ### Links
 
