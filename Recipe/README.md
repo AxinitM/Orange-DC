@@ -16,7 +16,7 @@ This project was done as part of the [Front End Developer Course by Orange Digit
 
 ### Links
 
-[Solution URL](https://axinitm.github.io/Orange-DC-Recipe-page/)
+[Solution URL](https://axinitm.github.io/ODC-Recipe/)
 
 ### The task
 
