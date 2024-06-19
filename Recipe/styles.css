@@ -130,6 +130,7 @@ textarea {
   font-family: "Outfit", sans-serif;
   font-size: 1em;
   line-height: 1.2;
+  resize: none; 
 }
 
 textarea::placeholder,
