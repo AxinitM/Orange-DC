@@ -12,7 +12,7 @@ This project is part of the [Front End Developer Course by Orange Digital Centre
 
 ### Screenshot
 
-![](/images/Screenshot.png)
+![](./images/Screenshot.png)
 
 ### Links
 
