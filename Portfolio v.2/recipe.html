@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="recipe.css">
+  <title>Apple Pie Recipe</title>
+
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Apple Pie Recipe</h1>
+      <section class="intro-text">
+        <p>Homemade apple pie is always a good idea – and if you're looking for the best apple pie recipe of all time,
+          you've come to the right place. We tried out a ton of recipes, and now we can give you the best apple pie
+          recipe. Give it a try!</p>
+        <img src="images/recipe/Apple-pie-by-AI.jpg" alt="Apple Pie Image">
+      </section>
+    </header>
+    
+    <main>
+      <section>
+        <div id="preparing-time">
+          <h3>Preparation time</h3>
+          <ul>
+            <li><strong>Total</strong>: Approximately 1 hour</li>
+            <li><strong>Preparation</strong>: 20 minutes</li>
+            <li><strong>Cooking</strong>: 40 minutes</li>
+          </ul>
+        </div>
+      </section>
+      
+
+      <!-- Ingredients section -->
+
+      <section>
+        <h2>Ingredients for 8 portions</h2>
+        <ul>
+          <li>400gr of store-bought or homemade dough</li>
+          <li>8 thinly sliced apples</li>
+          <li>1 tablespoon butter</li>
+          <li>200gr sugar &#40;a blend of white and brown sugar&#41;</li>
+          <li>1 teaspoon ground cinnamon</li>
+          <li>Optional fillings: nuts, raisin and other dried fruits, vanilla, honey etc.</li>
+        </ul>
+      </section>
+      <hr>
+
+      <!-- Instruction section -->
+
+      <section>
+        <h2>Instructions</h2>
+        <ol>
+          <li><strong>Preheat the oven</strong> to 230&deg;C.</li>
+
+          <li><strong>Divide the dough</strong> into two roughly equal portions. Place the first portion in a pie dish;
+            set the second one aside.</li>
+
+          <li><strong>Combine all sugar and cinnamon</strong> in a small bowl. Add more sugar if your apples are sour or
+            tart.</li>
+
+          <li><strong>Layer apple slices</strong> in the prepared pie dish, sprinkling each layer with cinnamon-sugar
+            mixture.</li>
+
+          <li><strong>Roll out</strong> the second part of the dough and cut 5cm wide strips (lines).</li>
+
+          <li><strong>Dot top layer of the apple slices</strong> small pieces of butter.</li>
+
+          <li><strong>Lay out </strong> strips of dough in two levels. Place the second level of strips at 90 degrees to
+            the first level.</li>
+
+          <li><strong>Bake the pie</strong> on the lowest rack of the preheated oven for 10 minutes.</li>
+
+          <li><strong>Reduce oven temperature</strong> to 175&deg;C and continue baking until golden brown colour
+            (30 to 35 minutes more).</li>
+
+          <li><strong>Serve warm or cold</strong>, with Ice-Cream or Whipping Cream if needed.</li>
+        </ol>
+      </section>
+      <hr>
+
+      <!-- Link to full recipe version  -->
+
+      <section>
+        <h2>Do you need the full recipe?</h2>
+        <p id="full-recipe-link">If you need the full version of the recipe, including photos and step-by-step
+          instructions, you can go <a href="https://www.allrecipes.com/recipe/12324/apple-pie-i/"
+            target="_blank">here</a>.
+        </p>
+      </section>
+      <hr>
+
+      <!-- Opinion section -->
+
+      <section>
+        <h2>What do you think about our recipe? </h2>
+        <div id="opinion-section">
+          <form action="#">
+            <!-- using <p> for labels and inputs is bad idea, but it speeds up the coding this situation, less games with CSS -->
+            <p><label for="name">Your name:</label></p>
+            <p> <input type="text" id="name" name="name" placeholder="Write here your name" required>
+            </p>
+
+            <p>
+              <label for="opinion">Give us your opinion about recipe (max 500 chars):</label>
+            </p>
+            <textarea name="opinion" placeholder="Write here everything you think about our recipe!" maxlength="500"
+              required></textarea>
+            <p>
+              <input id="opinion-button" type="submit" value="Sent opinion">
+            </p>
+          </form>
+        </div>
+      </section>
+      <hr>
+
+      <!-- Nutrition section -->
+
+      <section>
+        <h2>Nutrition facts per portion</h2>
+        <p class="nutrition-text">The table below shows the nutritional values per portion without the additional
+          fillings.</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>Calories</td>
+              <td class="nutrition-data">249kcal</td>
+            </tr>
+            <tr>
+              <td>Carbs</td>
+              <td class="nutrition-data">42g</td>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <td class="nutrition-data">2g</td>
+            </tr>
+            <tr>
+              <td>Fat</td>
+              <td class="nutrition-data">9g</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr>
+      <!--Return button section -->
+
+      <section>
+        <button id="return-button" onclick="window.location.href = 'index.html'">Go to main page</button>
+
+        <!-- <button id="return-button" onclick="history.back()">Go Back</button> -->
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer section -->
+
+  <footer>
+    <div class="attribution">
+      <p>Coded by <a href="https://github.com/AxinitM" target="_blank">Andrei Martinenko</a></p>
+
+
+      <p>This pie recipe is based on <a href="https://www.allrecipes.com/recipe/12324/apple-pie-i/" target="_blank">the
+          Easy Apple Pie recipe</a></p>
+
+      <p>Inspired by my challenge <a href="https://github.com/AxinitM/Frontend-Mentor/tree/main/Recipe-page"
+          target="_blank">solution</a> for FrontendMentor</p>
+      <p><a href="https://digitalcenter.orange.md/" target="_blank">
+          This project was done as part of the Front End Developer Course by Orange Digital Centre</a></p>
+      <p><a
+          href="https://www.freepik.com/free-ai-image/homemade-apple-pie-sweet-fresh-dessert-table-generated-by-artificial-intelligence_122384705.htm#fromView=search&page=2&position=17&uuid=10873c66-4ab6-4b92-8692-d666ee031000"
+          target="_blank">
+          Image by vecstock on Freepik</a></p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: #370050;
+}
+h1 {
+  text-decoration: solid underline overline #370050 2px;
+  
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #17ab33;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#message-button,
+.back-botton {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  }
+
+#message-button:hover,
+.back-botton:hover {
+  cursor: pointer;
+  font-style: normal;
+  text-decoration: none;
+  background-color: darkgreen;
+  color:white;
+  
+}
+/* My CSS experiments */
+
+body {
+  margin: 30px;
+}
+
+nav > a {
+margin-right: 20px;
+font-weight: bold;
+}
+
+th > a {
+  text-transform: capitalize;
+}
+
+th {
+  padding-bottom: 10px;
+}
+td > img {
+  transition: transform 0.3s ease;
+}
+
+td > img:hover {
+  transform: scale(1.4);
+}
+
+textarea::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.back-botton {
+  background-color: #1d74b5;
+  color: white;
+}

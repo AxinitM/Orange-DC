@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* 
+==== TODO ====
+- change @import to @font-face
+- make @media for mobile
+? change circles of the UL to the clock symbols
+*/
+
+:root {
+  /* Primary colors */
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+
+  /* Secondary colors */
+  --white: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+  --ButtonHoverColor: hsl(152, 51%, 32%);
+  --LinkColor: hsl(228, 45%, 44%);
+}
+
+/* General section */
+
+body {
+  background-color: var(--Eggshell);
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  /* not sure about letter-spacing */
+  letter-spacing: 0.7px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0px;
+}
+h2 {
+  color: var(--Nutmeg);
+}
+
+h3 {
+  color: var(--DarkRaspberry);
+}
+
+p {
+  /* font-size: 1rem; not sure about this font-size */
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+#container {
+  width: 650px;
+  height: auto;
+  background-color: var(--white);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--LightGrey);
+}
+
+img {
+  margin: 20px 0;
+  width: 100%;
+  height: 45%;
+  border-radius: 10px;
+}
+
+/* Preparing time section */
+
+#preparing-time {
+  width: 620px;
+  height: auto;
+  border-radius: 10px;
+  background-color: var(--RoseWhite);
+  padding: 15px;
+  border: 1px solid var(--LightGrey);
+}
+
+/* Using clock symbols instead of the classical circles of the ul-markers. 
+Have problems with left-padding/margins
+
+#preparing-time > ul {
+    list-style-type: none;
+    padding-left:0;
+  }
+
+  #preparing-time >  ul li::before {
+    content: "\231A";
+    margin-right: 0.5rem;
+  } */
+
+/* Opinion section */
+
+#opinion-section {
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+#name {
+  padding: 10px;
+  border: 1px solid var(--LightGrey);
+  border-radius: 10px;
+  background-color: var(--RoseWhite);
+  font-family: "Outfit", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+textarea {
+  width: 95%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid var(--LightGrey);
+  border-radius: 10px;
+  background-color: var(--RoseWhite);
+  font-family: "Outfit", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+textarea::placeholder,
+#name::placeholder {
+  font-size: 0.9em;
+}
+
+#opinion-button,
+#return-button {
+  background-color: var(--DarkRaspberry);
+  color: var(--white);
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 20px;
+}
+
+#return-button {
+  background-color: var(--LinkColor);
+  
+}
+#opinion-button:hover,
+#return-button:hover {
+  cursor: pointer;
+  background-color: var(--ButtonHoverColor);
+}
+
+/* hr-lines between sections */
+
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: var(--LightGrey);
+}
+
+/* List sets */
+
+ul,
+ol {
+  line-height: 2;
+}
+
+li {
+  padding-left: 20px;
+}
+
+li::marker {
+  color: var(--DarkRaspberry);
+  font-weight: 700;
+}
+
+/* Full recipe link  */
+
+#full-recipe-link {
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+/* Nutrition section */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+tr {
+  border: none;
+  /* option with borders
+  border-bottom: 1px solid var(--LightGrey); 
+  tr:last-child {border-bottom: none}    
+  */
+}
+
+tr:nth-child(odd) {
+  background-color: var(--RoseWhite);
+}
+
+td,
+th {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.nutrition-data {
+  color: var(--Nutmeg);
+  font-weight: 700;
+}
+
+.nutrition-text {
+  padding-left: 20px;
+}
+
+/* Return-botton section
+return-button settings see above - #return-button */
+
+#return-button {
+  margin: 15px 0 0 15px;
+}
+
+/* Links */
+
+a {
+  color: var(--LinkColor);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Footer section */
+
+.attribution {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: -35px;
+}

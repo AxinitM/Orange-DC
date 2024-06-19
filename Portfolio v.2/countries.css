@@ -1,0 +1,51 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --ButtonHoverColor: hsl(152, 51%, 32%);
+  --LinkColor: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-indent: 30px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+table,
+th,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+#return-button {
+  background-color: var(--LinkColor);
+  color: var(--white);
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 20px;
+}
+
+#return-button:hover {
+  cursor: pointer;
+  background-color: var(--ButtonHoverColor);
+}
