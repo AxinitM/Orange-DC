@@ -1,4 +1,4 @@
-# Front End Developer Course - Recipe Page
+# Recipe Page
 
 This project was done as part of the [Front End Developer Course by Orange Digital Centre](https://digitalcenter.orange.md/).
 
