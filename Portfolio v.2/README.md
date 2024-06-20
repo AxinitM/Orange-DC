@@ -1,4 +1,4 @@
-# Front End Developer Course - Portfolio v.2
+# Portfolio v.2
 
 This project is part of the [Front End Developer Course by Orange Digital Centre](https://digitalcenter.orange.md/).
 
