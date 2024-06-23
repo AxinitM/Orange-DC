@@ -16,7 +16,7 @@ There is a tribute page to H. Ford, creator of the T-Model car. The page was cre
 
 ### Links
 
-[Solution URL](https://axinitm.github.io/ODC-Tribute-page/ target="_blank)
+[Solution URL](https://axinitm.github.io/ODC-Tribute-page/)
 
 ### The task and my comments
 
