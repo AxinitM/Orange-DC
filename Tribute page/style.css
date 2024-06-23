@@ -1,0 +1,261 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Standard Nib";
+  src: url(fonts/StandardNib.ttf);
+}
+
+:root {
+  /* colors */
+  --MainColorDarkBlue: #1e3a5f;
+  --AddColorGray: #f5f5f5;
+  --AccentColorOrange: #FF4D00;
+  --TextColorDarkGray: #333;
+  --BgColorWhite: #fff;
+  --HoverButtonColorGreen: #80FF00;
+
+  /* fonts */
+  --HeaderFooterFont: "Oswald", sans-serif;
+  --MainBodyFont: "Work Sans", sans-serif;
+  --H1_H6_Font: "Montserrat", sans-serif;
+  --QuoteHandWritingFont: "Standard Nib", sans-serif;
+
+}
+
+
+/* General styles */
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--MainBodyFont);
+  font-size: 1rem;
+  color: var(--TextColorDarkGray);
+  background-color: var(--BgColorWhite);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--H1_H6_Font);
+  font-weight: 700;
+  color: var(--MainColorDarkBlue);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h2::first-letter,
+h3::first-letter {
+  color: var(--AccentColorOrange);
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+/* names, main thing, facts etc.*/
+
+.highlight {
+  color: var(--AccentColorOrange);
+}
+
+p {
+  line-height: 1.2;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Header & Main Menu */
+
+header {
+  background-color: var(--MainColorDarkBlue);
+  padding: 10px 0;
+  
+}
+
+#MainMenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#MainMenu li {
+  margin: 0 30px;
+}
+
+.Menu {
+  font-family: var(--HeaderFooterFont);
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--BgColorWhite);
+  text-decoration: none;
+  }
+
+.Menu:hover {
+  color: var(--AccentColorOrange);
+}
+
+/* Title and main photo section */
+
+#img-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#img-section img {
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Biography and others sections. Funny-section see below also */
+
+#bio-section,
+#reality-section,
+#funny-section {
+  width: 75%;
+  text-align: left;
+  padding: 10px 40px;
+  font-size: 1rem;
+  color: var(--TextColorDarkGray);
+  background-color: var(--AddColorGray);
+  border: none;
+  border-radius: 10px;
+}
+
+/* Inventions section*/
+
+#inventions-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.invention {
+  width: 300px;
+  margin: 10px -10px;
+  text-align: center;
+}
+
+#inventions-photos img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#inventions-photos .caption {
+  font-size: 1rem;
+  color: var(--TextColorDarkGray);
+}
+
+.invention > img {
+  transition: transform 0.6s ease;
+}
+
+.invention > img:hover {
+  transform: scale(2);
+}
+
+/* Funny stories  */
+
+#funny-section {
+  background-color: var(--BgColorWhite);
+}
+
+/* Quote section */
+
+#quote-section {
+  background-color: var(--AddColorGray);
+  padding: 25px 30px;
+  text-align: right;
+  margin: 20px auto 50px auto;
+  border-radius: 10px;
+  max-width: 60%;
+  position: relative;
+}
+
+#quote-section blockquote {
+  font-family: var(--QuoteHandWritingFont);
+  font-size: 3rem;
+  color: var(--MainColorDarkBlue);
+  margin: 0;
+  padding: 0;
+  /* line-height: 1.2; */
+  position: relative;
+}
+
+#quote-section blockquote:before {
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 4rem;
+  color: var(--AccentColorOrange);
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  
+}
+
+#quote-section cite {
+  display: block;
+  margin: 10px 0 0 0;
+  font-family: var(--QuoteHandWritingFont);
+  font-size: 2.5rem;
+  color: var(--AccentColorOrange);
+  text-align: right;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--MainColorDarkBlue);
+  color: var(--BgColorWhite);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+  margin-top: 0px;
+  font-family: var(--HeaderFooterFont);
+}
+
+footer p {
+ margin: 0 50px;
+}
+
+.arrow-up {
+  color: var(--AccentColorOrange);
+  }
+
+.back-to-top-arrow:hover {
+  color:var(--HoverButtonColorGreen);
+}
