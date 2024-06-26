@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact us</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Contact us</h1>
+  </header>
+
+  <main>
+    <form id="mainForm" action="#" method="POST">
+      <div id="container">
+
+        <!-- names section -->
+
+        <div class="semiSection">
+          <div>
+            <label for="name">First name:</label><br />
+            <input type="text" id="name" name="name" placeholder="Your first name..." required />
+          </div>
+          <div>
+            <label for="surname">Last name:</label><br />
+            <input type="text" id="surname" name="surname" placeholder="Your last name..." required />
+          </div>
+        </div>
+
+        <!-- email and tel section -->
+
+        <div class="semiSection">
+          <div>
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" placeholder="Your email..." required />
+          </div>
+          <div>
+            <label for="tel">Phone number:</label><br />
+            <input type="tel" id="tel" name="tel" placeholder="Your phone number..." required />
+          </div>
+        </div>
+      </div>
+
+      <!-- country section -->
+
+      <div class="singleSection">
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="">-- Select your country --</option>
+          <option class="fi fis-gr" value="MD">Moldova</option>
+          <option value="RO">Romania</option>
+          <option value="UA">Ukraine</option>
+          <option value="FR">France</option>
+          <option value="DE">Germany</option>
+          <option value="IT">Italy</option>
+          <option value="ES">Spain</option>
+          <option value="GB">United Kingdom</option>
+          <option value="US">United States</option>
+        </select>
+      </div>
+
+      <!-- address section -->
+
+      <div class="singleSection">
+        <label for="address">Address:</label><br />
+        <input type="text" id="address" name="address" placeholder="Your address" required />
+      </div>
+
+      <div class="singleSection">
+        <label for="subject">Your message
+          <span id="counter-remaining">(remaining characters: <span id="counter">300</span>)</span>:</label><br />
+        <textarea name="subject" id="subject" placeholder="Write here everything you want!" maxlength="300"
+          required></textarea><br />
+      </div>
+
+      <!-- Button section -->
+
+      <div class="button-container">
+        <input class="sub-button" type="submit" value="Send your message" />
+      </div>
+    </form>
+  </main>
+
+  <!-- JS for counter -->
+
+  <script>
+    const textarea = document.getElementById("subject");
+    const counter = document.getElementById("counter");
+    const maxLength = textarea.getAttribute("maxlength");
+
+    textarea.addEventListener("input", () => {
+      const remaining = maxLength - textarea.value.length;
+      counter.textContent = remaining;
+
+      if (remaining >= 11 && remaining <= 20) {
+        counter.className = "brown";
+      } else if (remaining >= 21 && remaining <= 300) {
+        counter.className = "darkgreen";
+      } else if (remaining <= 10) {
+        counter.className = "red";
+      }
+    });
+  </script>
+</body>
+
+</html>
