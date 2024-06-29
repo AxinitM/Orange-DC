@@ -1,6 +1,6 @@
 # 404 page (Front End Developer Course)
 
-the 404 page. The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
+404 page. The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
 - [Screenshot](#screenshot)
