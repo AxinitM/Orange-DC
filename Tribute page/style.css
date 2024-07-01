@@ -58,10 +58,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+/* 
+Repaints the first letter in a different color
 h2::first-letter,
 h3::first-letter {
   color: var(--AccentColorOrange);
-}
+} */
 
 h3 {
   font-size: 1.2rem;
