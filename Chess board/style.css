@@ -1,0 +1,163 @@
+:root {
+  /* colors */
+  --darkFieldColor: #808ba0;
+  --darkFieldHoverColor: #4f5768;
+
+  --lightFieldColor: #dbdbdd;
+  --lightFieldHoverColor: #fff;
+
+  --baseBodyColor: #e6e6fa;
+
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --shadowTableColor: #babecc;
+
+  /* fonts */
+  --mainFont: "Montserrat", sans-serif;
+}
+
+
+/* general options */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--mainFont);
+}
+
+h1 {
+  text-align: center;
+  margin: 25px 0 0;
+}
+
+/* table section */
+
+#chess-table {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  border-collapse: collapse;
+}
+
+td {
+  position: relative;
+  border: 1px inset var(--darkFieldHoverColor);
+  margin: 0;
+  text-align: center;
+  font-size: 45px;
+}
+
+th,
+td {
+  width: 60px;
+  height: 60px;
+}
+
+th,
+th:empty {
+  border: none;
+}
+
+tbody {
+  border: 2px solid var(--baseBodyColor);
+  border-radius: 5px;
+  background-color: var(--baseBodyColor);
+  box-shadow: 0px 0px 20px 10px var(--shadowTableColor);
+}
+
+.letters,
+.numbers {
+  text-align: center;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* coloring/panting fields */
+
+tr:nth-child(even) td:nth-child(even):not(.numbers),
+tr:nth-child(odd) td:nth-child(odd):not(.numbers) {
+  background-color: var(--lightFieldColor);
+}
+
+tr:nth-child(even) td:nth-child(odd):not(.numbers),
+tr:nth-child(odd) td:nth-child(even):not(.numbers) {
+  background-color: var(--darkFieldColor);
+}
+
+/* changing fields color after hovering */
+
+#chess-table td.light-field:hover {
+  background-color: var(--lightFieldHoverColor);
+}
+
+#chess-table td.dark-field:hover {
+  background-color: var(--darkFieldHoverColor);
+}
+
+/* hovering/tooltips figures */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* common tooltip settings for black and white figures */
+
+[data-tooltip^="Black"]::after,
+[data-tooltip^="White"]::after {
+  content: attr(data-tooltip);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 0.8rem;
+  width: 90px;
+  border: 1px solid var(--whiteColor);
+  background-color: var(--darkFieldHoverColor);
+  color: var(--lightFieldHoverColor);
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  /* tooltip on the right side closes the next figure 
+        bottom: calc(50% - 10px);
+        bottom: 50px;
+        left: 150%; 
+                */
+  transform: translate(-25%, -50%);
+  z-index: 100;
+  transition: opacity 0.3s;
+}
+
+/* special tooltip setting for white: 
+      border, color and background-color*/
+
+[data-tooltip^="White"]::after {
+  border: 1px solid var(--blackColor);
+  color: var(--blackColor);
+  background-color: var(--lightFieldHoverColor);
+}
+
+/* changing figures and its fields colors */
+
+#chess-table td.dark-field:hover:not(.numbers) {
+  background-color: var(--darkFieldHoverColor);
+  color: var(--whiteColor);
+}
+
+#chess-table td.light-field:hover:not(.numbers) {
+  color: var(--darkFieldHoverColor);
+  background-color: var(--whiteColor);
+}
+
+/* doesn't work - coloring only span space, not all td 
+      span:hover {
+        background: var(--lightFieldHoverColor);
+        color: var(--darkFieldHoverColor);
+      } */
