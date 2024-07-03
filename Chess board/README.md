@@ -27,7 +27,7 @@ The chess board page should:
 - each square/cell changes its color when hovering over it;
 - when you hover over the chess pieces, they change color, and a tooltip with the name of the chess piece appears on the right. For black pieces, the tooltip is white text on a black background and white border, and for white pieces, it is black text on a white background and black border.
 
-My comments: all tasks are done: cells/fields change color when hovering the cursor, shapes change color and tooltips etc.
+My comments: all tasks are done: cells/fields change color when hovering the cursor, figures change color and tooltips etc.
 
 
 ### Built with
