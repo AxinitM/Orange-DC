@@ -1,0 +1,218 @@
+:root {
+  /* colors */
+  --blackColor: #000;
+  --mainColor: #fff5ee; /* = seashell color */
+  --menuHoverColor: #2e8b57;
+
+  /* fonts */
+  --mainFont: Helvetica, Arial, sans-serif;
+}
+
+/* general */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 22px;
+}
+
+body {
+  background-color: var(--blackColor);
+  font-family: var(--mainFont);
+  color: var(--mainColor);
+}
+
+h2 {
+  font-size: 1.6em;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* Navigation / Menu section */
+
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid var(--mainColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+  background-color: var(--blackColor);
+}
+
+#nav img {
+  height: 50px;
+}
+
+#nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  /* margin: 0;
+  padding: 0; */
+}
+
+#nav .menu li {
+  display: inline;
+  text-decoration: underline;
+  color: var(--mainColor);
+}
+
+#nav a {
+  color: var(--mainColor);
+}
+#nav a:hover {
+  color: var(--menuHoverColor);
+}
+
+/* Main section, general */
+
+#main-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* mission section  */
+
+#mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 94%; /*1200px doesn't work, margins are too much  */
+  height: 700px;
+  margin: 69px auto;
+  background-image: url(image/img-mission-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.mission-text {
+  width: 100%;
+  background-color: var(--blackColor);
+  text-align: center;
+  padding: 10px;
+}
+
+/*  Month tea / features tea text section */
+
+#month-tea-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  /* Not a good solution below, but it is necessary to link to top of the section */
+  position: relative;
+  padding-top: 75px;
+  margin-top: -75px;
+}
+
+.month-text {
+  text-align: center;
+}
+
+.month-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.month-images img {
+  width: 300px;
+  height: 200px;
+  margin: 40px 30px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+.month-images p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.images-caption {
+  margin-top: -30px;
+}
+
+/* Location section */
+
+#location-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 500px;
+  margin: 85px auto 0;
+  background-image: url(image/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.location-text {
+  margin: 15px auto 0 auto;
+}
+
+#location-boxes {
+  display: flex;
+  margin: 0 auto;
+}
+
+.boxes {
+  width: 300px;
+  /* height: 300px; */
+  margin: 0px 40px;
+  background-color: var(--blackColor);
+  color: var(--mainColor);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.boxes h3 {
+  padding: 15px 0;
+}
+
+.boxes p {
+  padding: 20px 0;
+}
+
+/* footer section */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.copyright-left-side {
+ margin-left: 20px;
+}
