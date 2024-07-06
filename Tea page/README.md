@@ -4,6 +4,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Table of contents
 - [Screenshot](#screenshot)
+- [Links](#links)
 - [The task](#the-task)
 - [Built with](#built-with)
 - [Author](#author)
