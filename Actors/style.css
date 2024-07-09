@@ -1,0 +1,200 @@
+:root {
+  /* colors */
+  --greyColor: #484848;
+  --yellowColor: #e5af0e;
+  --greenColor: #2e7d32;
+  --whiteColor: #fff;
+
+  /* fonts */
+  --mainFont: "Montserrat", sans-serif;
+}
+
+/* general options */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--mainFont);
+  background-color: var(--whiteColor);
+}
+
+h1 {
+    margin-top: 20px;
+  text-align: center;
+  color: var(--greyColor);
+}
+
+#main-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* general card  section */
+
+.card {
+  flex-basis: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px var(--greyColor);
+  margin-top: 80px;
+}
+
+.card-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+/* actor image  section */
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: -75px;
+  border-radius: 50%;
+  border: 5px solid var(--whiteColor);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px var(--greyColor);
+}
+
+.image img:hover {
+  transform: scale(1.1);
+}
+
+/* name section */
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-full-name {
+  text-align: left;
+  padding: 20px 0px;
+}
+
+.name-winner {
+  text-transform: uppercase;
+  text-align: right;
+  padding-bottom: 15px;
+  color: var(--greenColor);
+}
+
+/* movie section */
+
+.movie {
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px solid var(--greenColor);
+  border-bottom: 3px solid var(--greenColor);
+}
+
+.movie-img img {
+  width: 90px;
+  height: 131px;
+  padding-top: 6px;
+  transition: transform 0.5s ease;
+  border-radius: 10px;
+}
+
+.movie-img img:hover {
+  transform: scale(1.4);
+  border-radius: 10px;
+}
+
+.movie-description {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 8px;
+}
+.movie h4 {
+  padding-bottom: 7px;
+}
+.movie p {
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+.movie .gold-stars {
+  color: var(--yellowColor);
+}
+
+.movie .black-star {
+  color: var(--greyColor);
+}
+
+.movie .imdb-score {
+  font-weight: bold;
+}
+
+.movie .imdb {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.imdb img {
+  height: 20px;
+}
+
+/* actor info/facts  section */
+
+.actor-info h4 {
+  margin: 10px 0;
+}
+.actor-info p {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* awards section */
+
+.awards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.awards img {
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.awards .awards-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  color: var(--greyColor);
+  font-size: 0.8em;
+  line-height: 1.4;
+  padding-left: 2em;
+}
+
+.awards .oscar-number-wins {
+  color: var(--greenColor);
+  font-weight: bold;
+}
+
+.awards .oscar-number-nominees {
+  color: var(--yellowColor);
+  font-weight: bold;
+}
