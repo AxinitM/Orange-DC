@@ -3,11 +3,9 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [12 x 12 grid page (Front End Developer Course)](#12-x-12-grid-page-front-end-developer-course)
-  - [Table of contents](#table-of-contents)
-    - [Screenshot](#screenshot)
-    - [The task and my comments](#the-task-and-my-comments)
-    - [Author](#author)
+- [Screenshot](#screenshot)
+- [The task and my comments](#the-task-and-my-comments)
+- [Author](#author)
 
 ### Screenshot
 
