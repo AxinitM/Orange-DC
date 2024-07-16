@@ -1,0 +1,65 @@
+:root {
+  /* color */
+  --itemBGColor: azure;
+  --itemBorderColor: navy;
+  --itemTextColor: darkblue;
+  /* fonts */
+  --mainFontFamily: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--mainFontFamily);
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0 50px;
+}
+
+div {
+  color: var(--itemTextColor);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#grid-container {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 40px);
+  gap: 5px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--itemBorderColor);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: var(--itemBGColor);
+}
+
+.one {
+  grid-area: 10 / 10 / 13 / 13;
+}
+
+.two {
+  grid-area: 4 / 4 / 7 / 7;
+}
+
+.three {
+  grid-area: 7 / 7 / span 3 / span 3;
+}
+
+.four {
+  grid-area: 1 / 1 / span 3 / span 3;
+}
