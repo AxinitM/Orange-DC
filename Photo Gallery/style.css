@@ -1,0 +1,114 @@
+:root {
+  /* colors */
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --hoverOpacityColor: #00000060;
+
+  /* fonts */
+  --mainFont: Georgia, "Times New Roman", Times, serif;
+}
+
+/* general options  */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--mainFont);
+}
+
+h1,
+h4 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* grid section / general options */
+
+#grid-container {
+  width: 90vw;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 100px);
+  gap: 10px;
+}
+
+.grid-item {
+  position: relative;
+  border: 1px solid var(--blackColor);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.one {
+  grid-area: 1 / 1 / 3 / 3;
+}
+
+.two {
+  grid-area: 1 / 3 / 3 / 5;
+}
+
+.three {
+  grid-area: 1 / 5 / 6 / 9;
+}
+
+.four {
+  grid-area: 3 / 1 / 6 / 5;
+}
+
+.six {
+  grid-area: 9 / 1 / 11 / 9;
+}
+
+.five {
+  grid-area: 6 / 8 / 9 / 9;
+}
+
+.seven {
+  grid-area: 6 / 6 / 9 / 8;
+}
+
+.eight {
+  grid-area: 6 / 1 / 9 / 4;
+}
+
+.nine {
+  grid-area: 6 / 4 / 9 / 6;
+}
+
+/* img section */
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.grid-item:hover img {
+  opacity: 0.8;
+}
+
+/* description section */
+
+.grid-item .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: var(--hoverOpacityColor);
+  color: var(--whiteColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.grid-item:hover .description {
+  opacity: 1;
+}
