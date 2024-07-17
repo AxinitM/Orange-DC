@@ -1,4 +1,4 @@
-# Grid experiments (Front End Developer Course)
+# Photo Gallery (Front End Developer Course)
 
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
