@@ -3,15 +3,13 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [Grid Elements page (Front End Developer Course)](#grid-elements-page-front-end-developer-course)
-  - [Table of contents](#table-of-contents)
-    - [Screenshot](#screenshot)
-    - [The task and my comments](#the-task-and-my-comments)
-    - [Author](#author)
+- [Screenshot](#screenshot)
+- [The task and my comments](#the-task-and-my-comments)
+- [Author](#author)
 
 ### Screenshot
 
-![](./image/Screenshot.png)
+![](./Screenshot.png)
 
 ### The task and my comments
 
