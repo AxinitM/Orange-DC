@@ -14,7 +14,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ### Links
 
-[Grid experiments page](https://axinitm.github.io/ODC-Photo-Gallery/)
+[Photo Gallery page](https://axinitm.github.io/ODC-Photo-Gallery/)
 
 ### The task and my comments
 
