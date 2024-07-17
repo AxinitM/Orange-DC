@@ -1,0 +1,71 @@
+:root {
+  /* colors */
+  --mainBgColor: #2f4f4f /* = darkslategrey */;
+  --divBgColor: #5f9ea0 /* = cadetblue */;
+  --borderDivColor: #426e70;
+  --h1-h6Color: #e0ffff;
+  --whiteColor: #fff;
+}
+
+/* general options */
+
+body {
+  font-size: 2.5rem;
+  background-color: var(--mainBgColor);
+  text-align: center;
+  color: var(--h1-h6Color);
+}
+
+/* grid section / general */
+
+.grid {
+  display: grid;
+  width: 1080px;
+  margin: auto;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 100px;
+  gap: 20px;
+}
+
+.grid div {
+  background-color: var(--divBgColor);
+  padding: 10px 20px;
+  border: 2px solid var(--borderDivColor);
+  color: var(--whiteColor);
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* grid section / block section */
+
+.one {
+  grid-area: 1 / 1 / 3 / 3;
+  opacity: 0.5;
+}
+
+.two {
+  grid-area: 2 / 2 / 5 / 5;
+  opacity: 0.5;
+}
+
+.three {
+  grid-area: 1 / 3 / 2 / 3;
+}
+
+.four {
+  grid-area: 1 / 4 / 2 / 4;
+}
+
+.five {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.six {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.seven {
+  grid-area: 5 / 1 / 6 / 2;
+}
