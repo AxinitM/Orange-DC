@@ -3,13 +3,10 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
- 
-- [Grid experiments (Front End Developer Course)](#grid-experiments-front-end-developer-course)
-  - [Table of contents](#table-of-contents)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-    - [The task and my comments](#the-task-and-my-comments)
-    - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [The task and my comments](#the-task-and-my-comments)
+- [Author](#author)
 
 ### Screenshot
 
