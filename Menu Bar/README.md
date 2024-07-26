@@ -3,13 +3,12 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
--[Table of contents](#table-of-contents)
--[Screenshot](#screenshot)
--[The task](#the-task)
--[Built with](#built-with)
--[What I learned](#what-i-learned)
--[Author](#author)
+- [Table of contents](#table-of-contents)
+- [Screenshot](#screenshot)
+- [The task](#the-task)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Author](#author)
 
 ## Screenshot
 
