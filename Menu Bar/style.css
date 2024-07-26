@@ -1,0 +1,94 @@
+:root {
+  /* colors */
+  --MainColorDarkBlue: #1e3a5f;
+  --MainColorDarkBlueOpacity: rgba(30, 58, 95, 0.2);
+  --AddColorGray: #f5f5f5;
+  --AccentColorOrange: #ff4d00;
+  --TextColorDarkGray: #333;
+  --BgColorWhite: #fff;
+
+  /* fonts */
+  --HeaderFooterFont: "Work Sans", sans-serif;
+  --MainBodyFont: "Work Sans", sans-serif;
+}
+
+/* General styles */
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--MainBodyFont);
+  font-size: 1rem;
+  color: var(--TextColorDarkGray);
+  background-color: var(--BgColorWhite);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--MainColorDarkBlue);
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#MainMenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#MainMenu li {
+  margin: 0 50px;
+  position: relative;
+}
+
+.Menu {
+  font-family: var(--HeaderFooterFont);
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--BgColorWhite);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.Menu:hover {
+  color: var(--AccentColorOrange);
+  /* text-decoration: underline; */
+}
+
+/* Dropdown Menu */
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: var(--MainColorDarkBlue);
+  box-shadow: 1px 8px 16px 1px var(--MainColorDarkBlueOpacity);
+  z-index: 1;
+  min-width: 200px;
+}
+
+.dropdown-list a {
+  color: var(--BgColorWhite);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.dropdown-list a:hover {
+  background-color: var(--AccentColorOrange);
+}
+
+.dropdown:hover .dropdown-list {
+  display: block;
+}
