@@ -3,13 +3,11 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [E-shoes store (Front End Developer Course)](#e-shoes-store-front-end-developer-course)
-  - [Table of contents](#table-of-contents)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
-    - [The task and my comments](#the-task-and-my-comments)
-    - [Built with](#built-with)
-    - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [The task and my comments](#the-task-and-my-comments)
+- [Built with](#built-with)
+- [Author](#author)
 
 ### Screenshot
 
