@@ -50,7 +50,7 @@ let vadimBMI = vadimWeight / vadimHeight ** 2;
 // Alex's section
 let alexWeight = 92;
 let alexHeight = 1.95;
-let alexBMI = alexWeight / alexHeight ** 2;
+let alexBMI = alexWeight / (alexHeight * alexHeight);
 
 // Boolean data
 
