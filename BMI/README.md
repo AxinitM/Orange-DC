@@ -1,4 +1,4 @@
-# JS experiments BMI (body mass index) and country card (Front End Developer Course)
+# JS experiments BMI (body mass index) and country card
 
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
