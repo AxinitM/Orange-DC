@@ -3,11 +3,9 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [JS experiments BMI (body mass index) and country card (Front End Developer Course)](#js-experiments-bmi-body-mass-index-and-country-card-front-end-developer-course)
-  - [Table of contents](#table-of-contents)
-    - [Screenshot](#screenshot)
-    - [The tasks and my comments](#the-tasks-and-my-comments)
-    - [Author](#author)
+- [Screenshot](#screenshot)
+- [The tasks and my comments](#the-tasks-and-my-comments)
+- [Author](#author)
 
 ### Screenshot
 
