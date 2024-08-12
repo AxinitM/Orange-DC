@@ -1,8 +1,6 @@
 // LESSON CHALLENGE
 
-let country = "Germany";
-let isIsland = country;
-let continent = "Europe";
+let country = "Germany", isIsland = country, continent = "Europe";
 let language;
 let population = 85;
 language = "German";
