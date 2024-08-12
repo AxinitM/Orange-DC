@@ -53,20 +53,14 @@ let alexHeight = 1.95;
 let alexBMI = alexWeight / (alexHeight * alexHeight);
 
 // Boolean data
-
 let markHigherBMI = vadimBMI > alexBMI;
 
 // Console section
 console.log();
-
 console.log("Homework:");
-
 console.log("Option 1.");
-
 console.log("Vadim's BMI is " + vadimBMI.toFixed(2) + ";");
-
 console.log("Alex's BMI is " + alexBMI.toFixed(2) + ";");
-
 console.log("Vadim's BMI is higher than Alex's: " + markHigherBMI + "!");
 
 /* VARIATION 2: 
@@ -88,9 +82,6 @@ let markHigherBMIOpt2 = vadimBMIOpt2 > alexBMIOpt2;
 
 // Console section
 console.log("Option 2.");
-
 console.log("Vadim's BMI is " + vadimBMIOpt2.toFixed(2) + ";");
-
 console.log("Alex's BMI is " + alexBMIOpt2.toFixed(2) + ";");
-
 console.log("Vadim's BMI is higher than Alex's: " + markHigherBMIOpt2 + "!");
