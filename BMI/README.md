@@ -35,7 +35,7 @@ Vadim and Alex are trying to compare their BMI (body mass index), which is calcu
 Var. 1: Vadim weighs 78 kg and is 1.69 m tall. Alex weighs 92 kg and is 1.95 m tall. 
 Var. 2: Vadim weighs 95 kg and is 1.88 m tall. Alex weighs 85 kg and is 1.76 m tall.
 
-My comments: all task done. 
+My comments: all tasks done. 
 
 ### Author
 
