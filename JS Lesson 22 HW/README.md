@@ -15,7 +15,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 Homework:
 
-1. Create a "temperature" variable. Use if/else statements to check if the temperature is below 0 (freezing), between 0 and 10 (cold), between 11 and 25 (moderate), or above 25 (warm). Display the appropriate temperature category.
+1. Create a "temperature" variable. Use if/else statements to check if the temperature is below 0, between 0 and 10, between 11 and 25, or above 25. Display the appropriate temperature category.
 
 2. Create a "day" variable with a value from 1 to 7, where 1 is Monday and 7 is Sunday. Use if/else statements to display the name of the day. For example, if day is 1, display "Monday"; if day is 5, display "Friday".
 
