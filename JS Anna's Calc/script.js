@@ -37,7 +37,7 @@ console.log(
 console.log("Third Test:");
 let bill_3 = 430;
 let tip_3 =
-  bill_3 >= 50 && bill_3 <= 300 ? (bill_3 * 0.15 : (bill_3 * 0.2;
+  bill_3 >= 50 && bill_3 <= 300 ? bill_3 * 0.15 : bill_3 * 0.2;
 let totalAmount_3 = bill_3 + tip_3;
 console.log(
   "$" +
