@@ -1,4 +1,4 @@
-# Anna's Tips Calculator
+# Anna's Tips Calculator (conditional ternary operators)
 
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
