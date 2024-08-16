@@ -1,6 +1,12 @@
 // LESSON 23 HOMEWORK
 
 // Anna's Tips Calculator
+// Task
+// Anna wants to build a very simple tip calculator for whenever she goes out to eat in a restaurant. In her country, it is customary to tip 15% if the bill is between 50 and 300. If the amount is different, tip 20%.
+// Your task is to calculate the tip, depending on the value of the bill. Create a variable called "tip" for this. You are not allowed to use an if/else statement.
+// Print to the console containing the bill amount, the tip, and the final amount (bill + tip).
+// Test for bills values 275, 40 and 430 dollars.
+
 
 console.log("Anna's Tips Calculator");
 
