@@ -1,4 +1,4 @@
-# Grid Elements page (Front End Developer Course)
+# Grid Elements page
 
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
