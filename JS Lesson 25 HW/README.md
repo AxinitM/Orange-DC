@@ -3,17 +3,15 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [JS experiments (Homework / Lesson 25)](#js-experiments-homework--lesson-25)
-  - [Table of contents](#table-of-contents)
-    - [Screenshot](#screenshot)
-    - [The tasks and my comments](#the-tasks-and-my-comments)
-    - [Author](#author)
+- [Screenshot](#screenshot)
+- [The tasks and my comments](#the-tasks-and-my-comments)
+- [Author](#author)
 
-### Screenshot
+## Screenshot
 
 ![](./image/screenshot.png)
 
-### The tasks and my comments
+## The tasks and my comments
 
 Homework + additional exercises:
 
@@ -30,6 +28,6 @@ Homework + additional exercises:
 
 My comments: all task done. 
 
-### Author
+## Author
 
 [Andrei Martinenko](https://github.com/AxinitM)
