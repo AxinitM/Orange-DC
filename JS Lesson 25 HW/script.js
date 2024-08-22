@@ -194,7 +194,9 @@ function getUserChoice(userInput) {
     userInput === "scissors"
   ) {
     return userInput;
-  } else if (userInput === "winner") {
+  } 
+  // Cheat door for infinite wins
+    else if (userInput === "winner") {
     return userInput;
   } else {
     return "Invalid choice. Try again!";
