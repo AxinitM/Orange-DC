@@ -101,7 +101,7 @@ function printSavings(name, principal, rate, years, contribution) {
 
   console.log(
     name +
-      "the total amount you will have in your account after " +
+      ", the total amount you will have in your account after " +
       years +
       " years is $" +
       totalAmount.toFixed(2)
