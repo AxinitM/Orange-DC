@@ -3,12 +3,9 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
-- [JS experiments (Homework / Lesson 29)](#js-experiments-homework--lesson-29)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [The tasks and my comments, full description of the tasks in the code](#the-tasks-and-my-comments-full-description-of-the-tasks-in-the-code)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [The tasks and my comments, full description of the tasks in the code](#the-tasks-and-my-comments-full-description-of-the-tasks-in-the-code)
+- [Author](#author)
 
 ## Screenshot
 
