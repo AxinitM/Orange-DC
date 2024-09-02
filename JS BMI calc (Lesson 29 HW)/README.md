@@ -4,14 +4,14 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Table of contents
 - [Screenshot](#screenshot)
-- [The tasks and my comments, full description of the tasks in the code](#the-tasks-and-my-comments-full-description-of-the-tasks-in-the-code)
+- [The tasks and my comments](#the-tasks-and-my-comments-full-description-of-the-tasks-in-the-code)
 - [Author](#author)
 
 ## Screenshot
 
 ![](./image/screenshot.png)
 
-## The tasks and my comments, full description of the tasks in the code
+## The tasks and my comments
 
 Homework exercise:
 
