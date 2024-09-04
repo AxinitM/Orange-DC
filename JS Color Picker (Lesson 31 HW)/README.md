@@ -15,12 +15,13 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Links
 
-[Color Picker page]()
+[Color Picker page](https://axinitm.github.io/ODC-Color-picker/)
 
 
 ## The tasks and my comments
 
 Color Picker
+
 Create a page that allows users to randomly get a color when they click on the main button, 
 while displaying a field in a given color, its name, rgb and hex codes.
     
