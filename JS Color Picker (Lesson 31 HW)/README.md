@@ -25,7 +25,7 @@ Color Picker
 Create a page that allows users to randomly get a color when they click on the main button, 
 while displaying a field in a given color, its name, rgb and hex codes.
     
-My comments: all task done (about 85 colors). 
+My comments: all task done (about 85 colors from [https://meyerweb.com/eric/css/colors/](https://drafts.csswg.org/css-color/#named-colors)). 
 
 ## Author
 
