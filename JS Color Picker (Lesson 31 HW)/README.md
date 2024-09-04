@@ -3,12 +3,10 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [Color Picker (JS /Lesson 31)](#color-picker-js-lesson-31)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [The tasks and my comments](#the-tasks-and-my-comments)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [The tasks and my comments](#the-tasks-and-my-comments)
+- [Author](#author)
 
 ## Screenshot
 
