@@ -50,6 +50,7 @@ function checkGuess() {
   // Checking gamer's number / results
   // win
   if (userGuess === randomNumber) {
+    console.log("Holy Mouse! People won again, time to call Skynet!");
     message.textContent = "Congratulations! You won!";
     body.style.backgroundColor = "var(--alertGreenColor)";
     questionBox.textContent = randomNumber;
@@ -122,7 +123,7 @@ function checkGuess() {
 function restartGame() {
   score = 20;
   randomNumber = Math.floor(Math.random() * 20) + 1;
-  console.log(randomNumber);
+  console.log(`I think that ${randomNumber} is my best idea! They will never guess it!`);
   message.textContent = "Start guessing...";
   document.querySelector(".score").textContent = score;
   buttonAgain.style.backgroundColor = "";
