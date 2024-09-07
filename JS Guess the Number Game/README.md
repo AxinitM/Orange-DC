@@ -30,6 +30,8 @@ The player can restart the game at any time by clicking the “Try Again!” but
 
 We wish you a great game and lots of fun! 
 
+P.S. If you want to read the computer's mind, watch the console!
+
 ## Author
 
 [Andrei Martinenko](https://github.com/AxinitM)
