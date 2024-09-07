@@ -29,6 +29,7 @@ function checkGuess() {
 
     if (score === 0) {
       message.textContent = "Game over! You lost!!!";
+      console.log("Ha-ha! People have no chance against me!");
       questionBox.textContent = randomNumber;
       body.style.backgroundColor = "var(--alertRedColor)";
       buttonAgain.textContent = "Try again!";
@@ -98,6 +99,7 @@ function checkGuess() {
     // Lost game
     else {
       message.textContent = "Game over! You lost!!!";
+      console.log("Ha-ha! People have no chance against me!");
       questionBox.textContent = randomNumber;
       body.style.backgroundColor = "var(--alertRedColor)";
       buttonAgain.textContent = "Try again!";
