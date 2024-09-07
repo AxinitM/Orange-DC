@@ -3,13 +3,10 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
-- [Guess My Number (game)](#guess-my-number-game)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Guess the Number Game Description](#guess-the-number-game-description)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Guess the Number Game Description](#guess-the-number-game-description)
+- [Author](#author)
 
 ## Screenshot
 
