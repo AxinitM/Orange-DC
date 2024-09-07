@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number!</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <header>
+        <div class="headerSection">
+          <button id="againButton" type="button">Again!</button>
+          <h1>Guess My Number</h1>
+          <p id="textBetween">(a number between 1 and 20)</p>
+        </div>
+      </header>
+
+      <main>
+        <section id="mainSection">
+          <div id="questionBox">?</div>
+
+          <section class="numberInputSection">
+            <input
+              title="Enter your number here!"
+              placeholder="1...20"
+              type="number"
+              class="numberInput"
+              min="1"
+              max="20"
+            />
+            <button type="submit" id="checkButton">Check!</button>
+          </section>
+
+          <section class="scoreSection">
+            <p class="message">Start guessing...</p>
+            <p class="label-score">💯 Score: <span class="score">20</span></p>
+            <p class="label-highscore">
+              🥇 Highscore: <span class="highscore">0</span>
+            </p>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <!-- Confetti script-->
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <canvas id="confetti"></canvas>
+
+    <!-- main js code -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

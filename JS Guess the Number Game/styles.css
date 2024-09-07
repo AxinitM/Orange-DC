@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+:root {
+  /* colors */
+  --mainBgColor: #000;
+  --accentBgColor: #e6e6fa;
+  --h1Color: #b9b9f5;
+  --textColor: #e6e6fa;
+  --buttonHover: #006400;
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --alertRedColor: #ff0000;
+  --alertGreenColor: #008000;
+  /* fonts */
+  --mainFontFamily: "Press Start 2P", Georgia, serif;
+}
+
+/* GENERAL SETS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--mainFontFamily);
+}
+
+body {
+  background-color: var(--blackColor);
+  font-size: 16px;
+  overflow-y: hidden;
+}
+
+button {
+  background-color: var(--accentBgColor);
+  color: var(--blackColor);
+}
+
+.disabled-button {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--buttonHover);
+  color: var(--textColor);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+/* HEADER SECTION */
+
+.headerSection {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  /* align-content: center; */
+  padding: 30px;
+  border-bottom: 8px solid var(--accentBgColor);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--h1Color);
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  translate: -50% -210px;
+}
+
+#againButton {
+  width: 10rem;
+  height: 5rem;
+  border-radius: 5px;
+  text-align: center;
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+#textBetween {
+  color: var(--textColor);
+  font-size: 0.8rem;
+}
+
+/* MAIN SECTION */
+
+#mainSection {
+  height: 60vh;
+  color: var(--textColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Question section  */
+
+#questionBox {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  background-color: var(--accentBgColor);
+  color: var(--blackColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 0.5rem;
+  font-size: 3.5rem;
+  translate: 0 -180%;
+}
+
+/* Number input section / left side */
+
+.numberInputSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.numberInput {
+  background-color: inherit;
+  border: 4px solid var(--accentBgColor);
+  color: var(--textColor);
+  font-size: 4rem;
+  padding: 2rem;
+  width: 15rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+input::placeholder {
+  font-size: 0.8rem;
+  color: var(--accentBgColor);
+  text-align: center;
+}
+input:invalid {
+  background-color: var(--alertRedColor);
+}
+
+/* Removing scrollbar from input field */
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Check button */
+
+#checkButton {
+  width: 10rem;
+  height: 5rem;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0 0 0 5px;
+  font-size: 1.2rem;
+  align-self: center;
+}
+#checkButton:hover {
+  cursor: pointer;
+  background-color: var(--buttonHover);
+  color: var(--textColor);
+}
+
+/* Score section / right side */
+
+.scoreSection {
+  width: 35rem;
+  font-size: 1.2rem;
+  margin: 0 -300px;
+  translate: 0 -50%;
+}
+
+.message {
+  margin-bottom: 2.5rem;
+  /* height: 3rem; */
+}
+
+.label-score {
+  margin-bottom: 1rem;
+}
