@@ -144,6 +144,7 @@ function restartGame() {
   body.style.backgroundColor = "";
   questionBox.textContent = "?";
   buttonCheck.style.visibility = "visible";
+  buttonRules.style.visibility = "visible";
   gameOver = false;
   enableInput();
 }
