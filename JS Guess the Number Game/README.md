@@ -24,7 +24,7 @@ After entering a number, the player can check their guess by pressing the “Che
 
 If the player guesses the correct number, the game will congratulate them with a victory. The screen will turn green, and a celebratory confetti animation will play.
 
-If the player does not guess the number within 20 attempts, the screen will turn red, and a smaller confetti animation will play. At the end of the game, the correct number will be displayed in the center square instead of the “?” sign. The “Check” button will disappear, and the “Try Again!” button will turn green. Clicking this button will restart the game.
+If the player does not guess the number within 20 attempts, the screen will turn red, and a small sad confetti animation will play. At the end of the game, the correct number will be displayed in the center square instead of the “?” sign. The “Check” button will disappear, and the “Try Again!” button will turn green. Clicking this button will restart the game.
 
 The player can restart the game at any time by clicking the “Try Again!” button. This action will reset the current attempt count to zero but will retain the highscore from the current session. The highscore can be reset by reloading the game page (F5).
 
