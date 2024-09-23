@@ -3,14 +3,11 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
-- [Calendar page](#calendar-page)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Tasks](#tasks)
-  - [Calendar Page Code Description](#calendar-page-code-description)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Tasks](#tasks)
+- [Calendar Page Code Description](#calendar-page-code-description)
+- [Author](#author)
 
 ## Screenshot
 
