@@ -1,0 +1,146 @@
+:root {
+  /* colors */
+  --bgColor: #d9e2ec;
+  --mainFontColor: #102a43;
+  --mainSectionBgColor: #fff;
+  --mainSectionBorderColor: #9fb3c8;
+  --mainSectionFontColor: #486581;
+  --dateHoverBgColor: #f0f4f8;
+  --dateHoverColor: #006400;
+  --dateHoverBorderColor: #014e01;
+}
+
+/* general sets  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", "Roboto", "Arial", sans-serif;
+}
+
+html,
+body {
+  font-size: 16px;
+  color: var(--mainFontColor);
+  min-height: 100vh;
+  background: var(--bgColor);
+  overflow: auto;
+}
+
+/* header / h1 */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+/* main section */
+
+main {
+  max-width: max-content;
+  margin: 3em auto 0 auto;
+  display: flex;
+  gap: 3.5rem;
+  align-items: flex-end;
+}
+
+/* month section  */
+
+.month {
+  background-color: var(--mainSectionBgColor);
+  border: 2px solid var(--mainSectionBorderColor);
+  border-radius: 10px;
+  padding: 1.5em;
+}
+
+/* main section / name of month  */
+
+.month-indicator {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* dates section */
+.date-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5em;
+  justify-items: center;
+  align-items: center;
+}
+
+.weekDays {
+  font-size: 0.9em;
+  color: var(--mainFontColor);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+li,
+.weekDays {
+  list-style-type: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: transparent;
+  color: var(--mainSectionFontColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+li:hover {
+  background-color: var(--dateHoverBgColor);
+  color: var(--dateHoverColor);
+  border: 0.5px solid var(--dateHoverBorderColor);
+  font-weight: 600;
+}
+
+/* dates section / previous and next months */
+
+.previousMonth:hover,
+.nextMonth:hover {
+  color: var(--mainSectionBorderColor);
+  border: 0.1px solid red;
+}
+
+.previousMonth,
+.nextMonth {
+  font-size: 0.6rem;
+  color: var(--mainSectionBorderColor);
+}
+
+/* sizes sets for months */
+
+.august,
+.october {
+  width: calc(75% - 1.75rem);
+}
+
+.september {
+  width: 100%;
+}
+
+/* @media  section */
+
+@media screen and (max-width: 470px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .month {
+    width: 100%;
+    max-width: 400px;
+    padding: 1em;
+  }
+
+  .october {
+    margin-bottom: 1.5rem;
+  }
+}
