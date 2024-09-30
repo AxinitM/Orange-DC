@@ -1,241 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png" />
     <title>Henry Ford's Tribute Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
 
-<body>
-
+  <body>
     <!-- Header & Main Menu -->
 
     <header>
-        <ul id="MainMenu">
-            <li><a href="#bio-section" class="Menu"> Biography</a></li>
-            <li><a href="#inventions-section" class="Menu"> Inventions</a></li>
-            <li><a href="#reality-section" class="Menu"> Reality and fakes </a></li>
-            <li><a href="#funny-section" class="Menu"> Funny stories</a></li>
-        </ul>
+      <div class="hamburger-menu">
+        <button id="hamburger-button">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
+
+      <ul id="MainMenu" class="dropdown-menu">
+        <li><a href="#bio-section" class="Menu">Biography</a></li>
+        <li><a href="#inventions-section" class="Menu">Inventions</a></li>
+        <li><a href="#reality-section" class="Menu">Reality and fakes</a></li>
+        <li><a href="#funny-section" class="Menu">Funny stories</a></li>
+      </ul>
     </header>
+
     <main>
+      <!-- Img and title section -->
 
-        <!-- Img and title section -->
+      <section id="img-section">
+        <h1>
+          <strong class="highlight">Henry Ford:</strong> the man who invented
+          industry
+        </h1>
 
-        <section id="img-section">
+        <img src="images/Ford.webp" alt="Henry Ford photo" />
+      </section>
 
-            <h1><strong class="highlight">Henry Ford:</strong> the man who invented industry</h1>
+      <!-- Biography section -->
 
-            <img src="images/Ford.webp" alt="Henry Ford photo">
+      <section class="section-wrapper">
+        <div id="bio-section">
+          <h2>Biography</h2>
+          <p>
+            <strong class="highlight">Henry Ford</strong> was born on July 30,
+            1863, in Greenfield Township, Michigan. He grew up on a farm but was
+            deeply interested in mechanics from a young age. Ford's journey into
+            the automotive industry began when he worked as an engineer at the
+            Edison Illuminating Company in Detroit. In 1896, he built his first
+            car, the Quadricycle.
+          </p>
 
-        </section>
+          <p>
+            Ford's most significant contribution was car
+            <strong class="highlight">the Model T</strong>, introduced in 1908.
+            The Model T changed transportation and became the first affordable
+            car for many people. This success was due to Ford's new
+            manufacturing methods - the moving assembly line.
+          </p>
 
-        <!-- Biography section -->
+          <p>
+            <strong class="highlight">The moving assembly line</strong> is a
+            revolutionary manufacturing method that forever changed industry
+            standards. This innovation allowed Ford Motor Company to drastically
+            reduce the time it took to assemble a car from more than 12 hours to
+            about 90 minutes. By breaking down the production process into
+            sequential steps and assigning each worker a specific task, Ford was
+            able to achieve unprecedented efficiency and consistency in
+            manufacturing.
+          </p>
+          <p>
+            The impact of the assembly line extended far beyond the automotive
+            industry. It laid
+            <strong class="highlight"
+              >the foundation for modern industrial production methods</strong
+            >, transforming how goods are manufactured across various sectors.
+            The principles of assembly line production introduced by Ford became
+            the cornerstone of mass production, influencing industries ranging
+            from electronics to aerospace.
+          </p>
+          <p>
+            Today,
+            <strong class="highlight"
+              >everything from household appliances to complex machinery
+            </strong>
+            is produced using principles derived from Ford's assembly line. This
+            method not only increased productivity and lowered costs but also
+            enabled the mass production of standardized goods. As a result,
+            products became more affordable and accessible to consumers
+            worldwide.
+          </p>
+          <p>
+            The assembly line also
+            <strong class="highlight"
+              >revolutionized labor practices and workforce management</strong
+            >. It created new job opportunities and spurred economic growth by
+            increasing production capacity and meeting rising consumer demand.
+            However, it also led to debates about its impact on worker
+            satisfaction, automation, and the environment.
+          </p>
+          <p>
+            Ford also made many
+            <strong class="highlight">important inventions</strong>. These
+            included improvements to car engines, the development of mass
+            production techniques, and innovations in industrial management. His
+            work helped shape the modern automotive industry.
+          </p>
+        </div>
+      </section>
 
-        <section class="section-wrapper">
-            <div id="bio-section">
-                <h2>Biography</h2>
-                <p>
-                    <strong class="highlight">Henry Ford</strong> was born on July 30, 1863, in Greenfield Township,
-                    Michigan. He grew up on a farm but was deeply interested in mechanics from a young age.
-                    Ford's journey into the automotive industry began when he worked as an engineer
-                    at the Edison Illuminating Company in Detroit. In 1896, he built his first
-                    car, the Quadricycle.
-                </p>
+      <!-- invention section -->
 
-                <p>
-                    Ford's most significant contribution was car <strong class="highlight">the Model T</strong>,
-                    introduced in 1908. The Model T changed transportation and became the first affordable car for many
-                    people.
-                    This success was due to Ford's new manufacturing methods - the moving assembly line.
-                </p>
+      <h2 id="inventions-section">Inventions</h2>
+      <section id="inventions-photos">
+        <div class="invention">
+          <img src="images/First-car.webp" alt="Ford's first car" />
+          <div class="caption">H.Ford and Quadricycle</div>
+        </div>
+        <div class="invention">
+          <img src="images/t-model.jpg" alt="T-Model car" />
+          <div class="caption">H.Ford and T-Model</div>
+        </div>
+        <div class="invention">
+          <img src="images/Line.jpg" alt="Ford's assembly line" />
+          <div class="caption">Assembly line</div>
+        </div>
+        <div class="invention">
+          <img src="images/Ford_Trimotor.jpg" alt="Ford Trimotor Plane" />
+          <div class="caption">Ford Trimotor Plane</div>
+        </div>
+      </section>
 
-                <p><strong class="highlight">The moving assembly line</strong> is a revolutionary manufacturing method
-                    that forever changed industry standards. This innovation allowed Ford Motor Company
-                    to drastically reduce the time it took to assemble
-                    a car from more than 12 hours to about 90 minutes. By breaking down the production process into
-                    sequential steps and assigning each worker a specific task, Ford was able to achieve unprecedented
-                    efficiency and consistency in manufacturing.
-                </p>
-                <p>The impact of the assembly line extended far beyond the automotive industry. It laid <strong
-                        class="highlight">the foundation for modern industrial production methods</strong>,
-                    transforming how goods are manufactured across various sectors.
-                    The principles of assembly line production introduced by Ford became the cornerstone of mass
-                    production, influencing industries ranging from electronics to aerospace.
-                </p>
-                <p>Today, <strong class="highlight">everything from household appliances to complex machinery </strong>
-                    is produced using principles derived from Ford's assembly line.
-                    This method not only increased productivity and lowered costs but also
-                    enabled the mass production of standardized goods. As a result, products became
-                    more affordable and accessible to consumers worldwide.
-                </p>
-                <p>The assembly line also <strong class="highlight">revolutionized labor practices and workforce
-                        management</strong>. It created new job opportunities and spurred economic growth
-                    by increasing production capacity and meeting rising consumer
-                    demand. However, it also led to debates about its impact on worker satisfaction, automation, and the
-                    environment.
-                </p>
-                <p>
-                    Ford also made many <strong class="highlight">important inventions</strong>. These included
-                    improvements to car engines, the development of
-                    mass production techniques, and innovations in industrial management. His work helped shape the
-                    modern automotive industry.
-                </p>
-            </div>
-        </section>
+      <!-- Reality and fakes section -->
 
-        <!-- invention section -->
+      <section class="section-wrapper">
+        <div id="reality-section">
+          <h2>Reality and Fakes</h2>
 
-        <h2 id="inventions-section">Inventions</h2>
-        <section id="inventions-photos">
-            <div class="invention">
-                <img src="images/First-car.webp" alt="Ford's first car">
-                <div class="caption">H.Ford and Quadricycle</div>
-            </div>
-            <div class="invention">
-                <img src="images/t-model.jpg" alt="T-Model car">
-                <div class="caption">H.Ford and T-Model</div>
-            </div>
-            <div class="invention">
-                <img src="images/Line.jpg" alt="Ford's assembly line">
-                <div class="caption">Assembly line</div>
-            </div>
-            <div class="invention">
-                <img src="images/Ford_Trimotor.jpg" alt="Ford Trimotor Plane">
-                <div class="caption">Ford Trimotor Plane</div>
-            </div>
-        </section>
+          <!-- Reality -->
 
+          <article>
+            <h3>Reality</h3>
+            <p>
+              <strong class="highlight"
+                >Pioneer of Assembly Line Production:</strong
+              >
+              Ford revolutionized the automotive industry by introducing the
+              moving assembly line in 1913. This innovation drastically reduced
+              the time it took to build a car, making automobiles affordable for
+              the average American. The Model T's price dropped significantly,
+              and by 1927, over 15 million units had been produced.
+            </p>
 
-        <!-- Reality and fakes section -->
+            <p>
+              <strong class="highlight">Doubled the hourly salary:</strong> in
+              1914, Ford doubled the daily wage of his factory workers to $5
+              (about $140 in 2024), a move that shocked the industrial world.
+              This not only reduced employee turnover and increased
+              productivity, but also allowed workers to afford the cars they
+              were building, thereby creating a larger market for his products.
+            </p>
 
-        <section class="section-wrapper">
-            <div id="reality-section">
-                <h2>Reality and <span class="highlight">F</span>akes</h2>
+            <p>
+              <strong class="highlight">Philanthropy and Education:</strong>
+              Ford was a philanthropist who invested heavily in education and
+              the arts. He founded the Henry Ford Hospital in Detroit, the Ford
+              Foundation, and Greenfield Village and the Henry Ford Museum in
+              Dearborn, Michigan, to preserve American history and innovation.
+            </p>
+          </article>
 
-                <!-- Reality -->
+          <!-- Fakes -->
 
-                <article>
-                    <h3>Reality</h3>
-                    <p><strong class="highlight">Pioneer of Assembly Line Production:</strong> Ford revolutionized the
-                        automotive industry by introducing the
-                        moving assembly line in 1913. This innovation drastically reduced the time it took to build a
-                        car, making automobiles affordable for the average American. The Model T's price dropped
-                        significantly, and by 1927, over 15 million units had been produced.
-                    </p>
+          <article>
+            <h3>Fakes</h3>
+            <p>
+              <strong class="highlight">Ford Invented the Automobile:</strong>
+              contrary to popular belief, Ford did not invent the automobile.
+              The first practical automobile is credited to Karl Benz in 1885,
+              named Mercedes. Ford's contribution was in making the automobile
+              affordable and accessible to the masses through his innovative
+              production techniques.
+            </p>
+            <p>
+              <strong class="highlight">Anti-Semitic Allegations:</strong> while
+              it is true that Ford published anti-Semitic articles in his
+              newspaper, "The Dearborn Independent," but it is a myth that these
+              views defined his entire legacy. Later in life, Ford publicly
+              apologized for the articles, and the Ford Motor Company has since
+              actively supported Jewish communities and causes.
+            </p>
+            <p>
+              <strong class="highlight">Ford was Against Unions:</strong> there
+              is a common belief that Ford was universally opposed to labor
+              unions. While he did resist unionization in his factories for many
+              years, it is not true that he never cooperated with unions. In
+              1941, after a long struggle, Ford Motor Company signed its first
+              contract with the United Auto Workers, marking a significant shift
+              in labor relations.
+            </p>
+          </article>
+        </div>
+      </section>
 
-                    <p><strong class="highlight">Doubled the hourly salary:</strong> in 1914, Ford doubled the daily
-                        wage of
-                        his factory workers to $5 (about $140 in 2024), a move that shocked the industrial world.
-                        This not only reduced employee turnover and increased productivity, but also
-                        allowed workers to afford the cars they were building, thereby creating a larger market for his
-                        products.
-                    </p>
+      <!-- Funny stories -->
 
-                    <p><strong class="highlight">Philanthropy and Education:</strong> Ford was a philanthropist who
-                        invested
-                        heavily in education and the arts. He founded the Henry Ford Hospital in Detroit, the Ford
-                        Foundation,
-                        and Greenfield Village and the Henry Ford Museum in Dearborn, Michigan, to preserve American
-                        history
-                        and innovation.
-                    </p>
-                </article>
+      <section class="section-wrapper">
+        <div id="funny-section">
+          <h2>Funny stories</h2>
+          <p>
+            Henry Ford's life was filled with remarkable achievements,
+            interesting endeavors, and humorous moments. These are just a few of
+            the stories that have come down to us.
+            <strong class="highlight"
+              >No one knows which of these stories are true and which are urban
+              legends</strong
+            >. What do you think?
+          </p>
+          <p>
+            <strong class="highlight">Testing Cars in Disguise:</strong> Henry
+            Ford was known for testing his cars personally. To avoid recognition
+            and get honest feedback, he would often wear disguises. On one
+            occasion, he dressed as a common worker and visited a local
+            dealership to hear what customers thought of his latest model.
+          </p>
+          <p>
+            <strong class="highlight">The Soap Incident:</strong> Ford was quite
+            meticulous about cleanliness in his factories. It's said that he
+            once caught an employee not washing his hands properly. Ford then
+            placed a bar of soap in the employee's locker with a note saying,
+            "Use it!"
+          </p>
+          <p>
+            <strong class="highlight">The Stubborn Goat:</strong> during the
+            early days of Ford Motor Company, a goat wandered into the factory
+            and refused to leave. Ford, amused by the situation, named the goat
+            "Mr. Muggins" and allowed it to stay. The goat became a sort of
+            unofficial mascot and was often seen wandering around the assembly
+            line.
+          </p>
+        </div>
+      </section>
 
-                <!-- Fakes -->
+      <!-- Quote Section -->
 
-                <article>
-                    <h3>Fakes</h3>
-                    <p>
-                        <strong class="highlight">Ford Invented the Automobile:</strong> contrary to popular
-                        belief, Ford did not invent the automobile.
-                        The first practical automobile is credited to Karl Benz in 1885, named Mercedes. Ford's
-                        contribution was in making the automobile affordable and accessible
-                        to the masses through his innovative production techniques.
-                    </p>
-                    <p>
-                        <strong class="highlight">Anti-Semitic Allegations:</strong> while it is true that Ford
-                        published anti-Semitic articles in his newspaper, "The Dearborn Independent,"
-                        but it is a myth that these views defined his entire legacy.
-                        Later in life, Ford publicly apologized for the articles, and the Ford Motor Company has since
-                        actively supported Jewish communities and causes.
-                    </p>
-                    <p>
-                        <strong class="highlight">Ford was Against Unions:</strong> there is a common belief that
-                        Ford was universally opposed to labor unions.
-                        While he did resist unionization in his factories for many years, it is not true that he
-                        never cooperated with unions. In 1941, after a long struggle, Ford Motor Company signed its
-                        first contract with the United Auto Workers, marking a significant shift in labor relations.
-                    </p>
-                </article>
-            </div>
-
-        </section>
-
-        <!-- Funny stories -->
-
-        <section class="section-wrapper">
-            <div id="funny-section">
-                <h2>Funny stories</h2>
-                <p>Henry Ford's life was filled with remarkable achievements, interesting endeavors, and humorous
-                    moments. These are just a few of the stories that have come down to us. <strong class="highlight">No
-                        one knows which of these stories are true and which are urban legends</strong>.What do you
-                    think?
-                </p>
-                <p><strong class="highlight">Testing Cars in Disguise:</strong> Henry Ford was known for testing his
-                    cars personally. To avoid recognition
-                    and get honest feedback, he would often wear disguises. On one occasion, he dressed as a common
-                    worker and visited a local dealership to hear what customers thought of his latest model.
-                </p>
-                <p><strong class="highlight">The Soap Incident:</strong> Ford was quite meticulous about cleanliness in
-                    his factories. It's said that he
-                    once caught an employee not washing his hands properly. Ford then placed a bar of soap in the
-                    employee's locker with a note saying, "Use it!"
-                </p>
-                <p><strong class="highlight">The Stubborn Goat:</strong> during the early days of Ford Motor Company, a
-                    goat wandered into the factory and refused to leave.
-                    Ford, amused by the situation, named the goat "Mr. Muggins" and allowed it to
-                    stay. The goat became a sort of unofficial mascot and was often seen wandering around the assembly
-                    line.
-                </p>
-            </div>
-        </section>
-
-        <!-- Quote Section -->
-
-        <section class="section-wrapper">
-            <div id="quote-section">
-                <blockquote cite="https://www.azquotes.com/quote/99157">
-                    When everything seems to be going against you,<br>
-                    remember that the airplane takes off against the wind, not with it!
-                </blockquote>
-                <cite>– Henry Ford</cite>
-            </div>
-        </section>
+      <section class="section-wrapper">
+        <div id="quote-section">
+          <blockquote cite="https://www.azquotes.com/quote/99157">
+            When everything seems to be going against you, remember that the
+            airplane takes off against the wind, not with it!
+          </blockquote>
+          <cite>– Henry Ford</cite>
+        </div>
+      </section>
     </main>
 
     <!-- Footer section -->
 
     <footer>
-        <!-- - the top menu (header) is created with <ol> and <li>, 
+      <!-- - the top menu (header) is created with <ol> and <li>, 
             but the bottom menu (footer) is created with flexbox and <p>. 
                 This was my experiment and testing the performance of each variant. -->
-        <p>
-            <a href="#">
-                <i class="fa fa-arrow-circle-up arrow-up back-to-top-arrow" aria-hidden="true"></i>
-            </a>
-        </p>
-        <p>&copy; 2024 Henry Ford's Tribute Page. All rights reserved.</p>
-        <p>
-            <a href="#">
-                <i class="fa fa-arrow-circle-up arrow-up back-to-top-arrow" aria-hidden="true"></i>
-            </a>
-        </p>
+      <p>
+        <a href="#">
+          <i
+            class="fa fa-arrow-circle-up arrow-up back-to-top-arrow"
+            aria-hidden="true"
+          ></i>
+        </a>
+      </p>
+      <p id="footer-author-name">&copy; 2024 Andrei Martinenko</p>
+      <p>
+        <a href="#">
+          <i
+            class="fa fa-arrow-circle-up arrow-up back-to-top-arrow"
+            aria-hidden="true"
+          ></i>
+        </a>
+      </p>
     </footer>
-</body>
-
+    <script src="script.js"></script>
+    
+  </body>
 </html>

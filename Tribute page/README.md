@@ -1,45 +1,34 @@
-# Tribute Page (Front End Developer Course)
+# A Tribute Page to Henry Ford 
 
-There is a tribute page to H. Ford, creator of the T-Model car. The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
+The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [The task and my comments](#the-task-and-my-comments)
-- [Built with](#built-with)
-- [What I learned](#what-i-learned)
-- [Author](#author)
 
-### Screenshot
+- [A Tribute Page to Henry Ford](#a-tribute-page-to-henry-ford)
+  - [Table of contents](#table-of-contents)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [The task and the page description](#the-task-and-the-page-description)
+  - [Author](#author)
 
-![](./images/Screenshot.png)
+## Screenshot
 
-### Links
+![](./images/screenshot.png)
+
+## Links
 
 [Solution URL](https://axinitm.github.io/ODC-Tribute-page/)
 
-### The task and my comments
+## The task and the page description
 
 Creating a page dedicated to a famous person (tribute page).
 
-My comments:
-- header and footer are "glued" to the bottom of the visible area and they are always visible;
+Page description:
+- footer is «glued» to the bottom of the visible area and it is always visible to the user; 
 - the photos (Inventions section) are doubled when the cursor is hovered over;
 - the footer contains two buttons that change color to green when the cursor is hovered over them. When clicking on them - the user goes to the top of the page;
-- the top menu (header) is created with < ul > and < il >, but the bottom menu (footer) is created with flexbox and < p >. This was my experiment and testing the performance of each variant.
+- the top menu (header) is created with < ol > and < il >, but the bottom menu (footer) is created with flexbox and < p >. This was my experiment and testing the performance of each variant.
 
-The code is not perfect, so I am willing to listen to any constructive criticism and comments.
-
-### Built with
-
-- Semantic HTML5 markup
-- vanilla CSS
-- Flexbox
-
-### What I learned
-
-This task improved my knowledge in HTML (semantic code, img etc.), CSS (Flexbox, @font-face, @import, :root, nesting, text-transform etc.).
-
-### Author
+## Author
 
 [Andrei Martinenko](https://github.com/AxinitM)

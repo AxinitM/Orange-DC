@@ -11,19 +11,17 @@
   /* colors */
   --MainColorDarkBlue: #1e3a5f;
   --AddColorGray: #f5f5f5;
-  --AccentColorOrange: #FF4D00;
+  --AccentColorOrange: #ff4d00;
   --TextColorDarkGray: #333;
   --BgColorWhite: #fff;
-  --HoverButtonColorGreen: #80FF00;
+  --HoverButtonColorGreen: #80ff00;
 
   /* fonts */
   --HeaderFooterFont: "Oswald", sans-serif;
   --MainBodyFont: "Work Sans", sans-serif;
   --H1_H6_Font: "Montserrat", sans-serif;
   --QuoteHandWritingFont: "Standard Nib", sans-serif;
-
 }
-
 
 /* General styles */
 
@@ -51,19 +49,18 @@ h3 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin: 50px;
 }
 
 h2 {
   font-size: 1.5rem;
 }
 
-/* 
-Repaints the first letter in a different color
-h2::first-letter,
-h3::first-letter {
-  color: var(--AccentColorOrange);
-} */
+/* h2::first-letter,
+      h3::first-letter {
+        color: var(--AccentColorOrange);
+      } */
 
 h3 {
   font-size: 1.2rem;
@@ -92,12 +89,12 @@ p {
 header {
   background-color: var(--MainColorDarkBlue);
   padding: 10px 0;
-  position: fixed; 
-  top: 0; 
-  left: 0; 
+  position: fixed;
+  top: 0;
+  left: 0;
   right: 0;
-  z-index:1000;
- }
+  z-index:999;
+}
 
 #MainMenu {
   list-style-type: none;
@@ -105,11 +102,10 @@ header {
   justify-content: center;
   margin: 0;
   padding: 0;
-  
 }
 
 #MainMenu li {
-  margin: 0 30px;
+  margin: 0 40px;
 }
 
 .Menu {
@@ -118,10 +114,18 @@ header {
   font-size: 1.1rem;
   color: var(--BgColorWhite);
   text-decoration: none;
-  }
+}
 
 .Menu:hover {
   color: var(--AccentColorOrange);
+}
+
+.Menu:active {
+  color: var(--BgColorWhite);
+}
+
+.Menu:focus {
+  color: var(--BgColorWhite);
 }
 
 /* Title and main photo section */
@@ -133,6 +137,7 @@ header {
 
 #img-section img {
   width: 600px;
+  /* height: 450px; */
   border: none;
   border-radius: 10px;
   margin-top: 20px;
@@ -154,6 +159,9 @@ header {
 }
 
 /* Inventions section*/
+#inventions-section {
+  padding: 40px 40px 10px;
+}
 
 #inventions-photos {
   display: flex;
@@ -186,7 +194,7 @@ header {
 }
 
 .invention > img:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 
 /* Funny stories  */
@@ -203,7 +211,7 @@ header {
   text-align: right;
   margin: 20px auto 50px auto;
   border-radius: 10px;
-  max-width: 60%;
+  max-width: 50%;
   position: relative;
 }
 
@@ -222,10 +230,9 @@ header {
   font-family: "FontAwesome";
   font-size: 4rem;
   color: var(--AccentColorOrange);
-  position: absolute;
+  /* position: relative; */
   left: 0px;
   top: -10px;
-  
 }
 
 #quote-section cite {
@@ -241,7 +248,7 @@ header {
 
 footer {
   position: fixed;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--MainColorDarkBlue);
@@ -249,19 +256,177 @@ footer {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+
   bottom: 0;
   margin-top: 0px;
   font-family: var(--HeaderFooterFont);
 }
 
 footer p {
- margin: 0 50px;
+  margin: 0 50px;
+  font-size: 0.9rem;
 }
 
 .arrow-up {
   color: var(--AccentColorOrange);
-  }
+}
 
 .back-to-top-arrow:hover {
-  color:var(--HoverButtonColorGreen);
+  color: var(--HoverButtonColorGreen);
+}
+
+/* @media 740px */
+
+@media (max-width: 740px) {
+  #MainMenu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #MainMenu li {
+    margin: 10px 0;
+  }
+
+  #img-section img {
+    width: 100%;
+  }
+
+  #bio-section,
+  #reality-section,
+  #funny-section {
+    width: 90%;
+    padding: 10px 20px;
+  }
+}
+
+/* @media 471px and bigger for hidden burger-menu */
+
+@media (min-width: 471px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  #MainMenu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* @media 470px and smaller */
+@media (max-width: 470px) {
+  h1 {
+    font-size: 1.5rem;
+    margin: 50px 30px 30px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+
+  #MainMenu {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  #MainMenu li {
+    margin: 10px 0;
+  }
+
+  #MainMenu li:first-child {
+    margin-top: -40px;
+  }
+
+  #img-section img {
+    width: 75%;
+  }
+
+  #bio-section,
+  #reality-section,
+  #funny-section {
+    width: 75%;
+    padding: 10px;
+  }
+
+  #inventions-section {
+    padding: 30px 0 5px;
+    margin: 0;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  #quote-section {
+    max-width: 75%;
+    padding: 20px;
+  }
+
+  #quote-section blockquote {
+    font-size: 2rem;
+  }
+
+  footer {
+    height: 15px;
+  }
+
+  footer p {
+    margin: 0 15px;
+  }
+
+  #footer-author-name {
+    font-size: 0.7rem;
+  }
+
+  /* Burger menu   */
+
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--MainColorDarkBlue);
+  }
+
+  .hamburger-menu button {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    color: var(--BgColorWhite);
+    cursor: pointer;
+  }
+
+  .hamburger-menu button:focus {
+    outline: none;
+  }
+
+  /* dropdown menu */
+
+  .dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--MainColorDarkBlue);
+    position: absolute;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  .dropdown-menu a {
+    padding: 8px 0;
+    text-align: center;
+    color: var(--BgColorWhite);
+    text-decoration: none;
+    border-bottom: 1px solid var(--AccentColorOrange);
+    font-size: 1rem;
+  }
+
+  .dropdown-menu a:hover {
+    color: var(--AccentColorOrange);
+  }
 }
