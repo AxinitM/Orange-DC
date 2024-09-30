@@ -14,7 +14,7 @@ The page was created as part of the [Front End Developer Course by Orange DC](ht
 
 ## Links
 
-[Page URL](https://axinitm.github.io/ODC-Tribute-Page/))
+[Page URL](https://axinitm.github.io/ODC-Tribute-Page/)
 
 ## The task and the page description
 
