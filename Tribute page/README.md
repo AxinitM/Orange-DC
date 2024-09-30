@@ -3,13 +3,10 @@
 The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
 ## Table of contents
-
-- [A Tribute Page to Henry Ford](#a-tribute-page-to-henry-ford)
-  - [Table of contents](#table-of-contents)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [The task and the page description](#the-task-and-the-page-description)
-  - [Author](#author)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [The task and the page description](#the-task-and-the-page-description)
+- [Author](#author)
 
 ## Screenshot
 
