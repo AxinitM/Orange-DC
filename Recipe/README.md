@@ -1,4 +1,4 @@
-# Front End Developer Course - Recipe Page
+# Recipe Page 
 
 This project was done as part of the [Front End Developer Course by Orange Digital Centre](https://digitalcenter.orange.md/).
 
@@ -15,7 +15,7 @@ This project was done as part of the [Front End Developer Course by Orange Digit
 
 ## Links
 
-[Page URL](https://axinitm.github.io/ODC-Recipe/)
+[Recipe Page URL](https://axinitm.github.io/ODC-Recipe/)
 
 ## Description
 This page contains a recipe for apple pie, featuring a photo of the pie, the estimated preparation time, a list of ingredients, step-by-step instructions, nutritional information, a feedback form, a print button for the recipe, and a button to share it via Telegram
