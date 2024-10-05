@@ -9,7 +9,7 @@ This project was done as part of the [Front End Developer Course by Orange Digit
 - [Built with](#built-with)
 - [Author](#author)
 
-# Screenshot
+## Screenshot
 
 ![](/images/screenshot.png)
 
