@@ -28,6 +28,8 @@ If the player does not guess the number within 20 attempts, the screen will turn
 
 The player can restart the game at any time by clicking the “Try Again!” button. This action will reset the current attempt count to zero but will retain the highscore from the current session. The highscore can be reset by reloading the game page (F5).
 
+The rules are displayed in a modal window
+
 We wish you a great game and lots of fun! 
 
 P.S. If you want to read the computer's mind, watch the console!
