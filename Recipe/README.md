@@ -28,5 +28,7 @@ This page contains a recipe for apple pie, featuring a photo of the pie, the est
 - Vanilla Java Script
 
 ## Author
+- Website - [Andrei Martinenko](https://www.frontender.biz)
+- Github - [@AxinitM](https://github.com/AxinitM)
+- Frontend Mentor - [@AxinitM](https://www.frontendmentor.io/profile/AxinitM)
 
-- GitHub - [Andrei Martinenko](https://github.com/AxinitM)
