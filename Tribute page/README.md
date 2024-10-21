@@ -28,4 +28,6 @@ Page description:
 
 ## Author
 
-[Andrei Martinenko](https://github.com/AxinitM)
+- Website - [Andrei Martinenko](https://www.frontender.biz)
+- Github - [@AxinitM](https://github.com/AxinitM)
+- Frontend Mentor - [@AxinitM](https://www.frontendmentor.io/profile/AxinitM)
