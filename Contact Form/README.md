@@ -1,4 +1,4 @@
-# Contact Form v.1 (no flags)
+# Contact Form 
 
 There is a contact form. The page was created as part of the [Front End Developer Course by Orange DC](https://digitalcenter.orange.md/).
 
