@@ -1,1 +1,1 @@
-This repository contains projects made as part of the Front End Developer Course by Orange Digital Centre (June - October 2024)
+This repository features projects created during the Front End Developer Course at Orange Digital Centre Moldova (June - October 2024).
